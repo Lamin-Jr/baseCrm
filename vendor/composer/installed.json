@@ -1,0 +1,130 @@
+{
+    "packages": [
+        {
+            "name": "basecrm/basecrm-php",
+            "version": "v1.4.3",
+            "version_normalized": "1.4.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basecrm/basecrm-php.git",
+                "reference": "462fb3e7bba45a4247d7ced655956ecb228ba9b7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basecrm/basecrm-php/zipball/462fb3e7bba45a4247d7ced655956ecb228ba9b7",
+                "reference": "462fb3e7bba45a4247d7ced655956ecb228ba9b7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "time": "2020-04-22T14:01:43+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "BaseCRM\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache License 2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Zendesk",
+                    "email": "opensource@zendesk.com",
+                    "homepage": "https://github.com/basecrm/basecrm-php/graphs/contributors"
+                }
+            ],
+            "description": "BaseCRM Official API V2 library client for PHP",
+            "homepage": "http://developers.getbase.com/",
+            "keywords": [
+                "api",
+                "base crm",
+                "client",
+                "http",
+                "http client",
+                "v2"
+            ],
+            "support": {
+                "issues": "https://github.com/basecrm/basecrm-php/issues",
+                "source": "https://github.com/basecrm/basecrm-php/tree/v1.4.3"
+            },
+            "install-path": "../basecrm/basecrm-php"
+        },
+        {
+            "name": "symfony/css-selector",
+            "version": "v5.2.4",
+            "version_normalized": "5.2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/css-selector.git",
+                "reference": "f65f217b3314504a1ec99c2d6ef69016bb13490f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/f65f217b3314504a1ec99c2d6ef69016bb13490f",
+                "reference": "f65f217b3314504a1ec99c2d6ef69016bb13490f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5"
+            },
+            "time": "2021-01-27T10:01:46+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\CssSelector\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Jean-François Simon",
+                    "email": "jeanfrancois.simon@sensiolabs.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Converts CSS selectors to XPath expressions",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/css-selector/tree/v5.2.4"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "install-path": "../symfony/css-selector"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

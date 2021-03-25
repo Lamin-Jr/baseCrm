@@ -1,0 +1,7 @@
+{
+    "require": {
+        "basecrm/basecrm-php": "^1.4",
+        "symfony/css-selector": "^5.2"
+        
+    }
+}
